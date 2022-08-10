@@ -1,0 +1,186 @@
+@media(min-width: 1200px) and (max-width: 1600px) {}
+
+@media(min-width: 1200px) and (max-width: 1400px) {
+    .navbar-default {
+        padding: 30px 0 0 0;
+    }
+    .navbar-brand>img {
+        width: 260px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        margin: 16px 30px;
+        font-size: 14px;
+    }
+    .banner-principal-texto-left h3 {
+        width: 220px;
+        height: 33px;
+        font-size: 17px;
+    }
+    .banner-principal-texto-right {
+        width: 485px;
+        float: right;
+    }
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+    .navbar-default {
+        padding: 30px 0 0 0;
+    }
+    .navbar-brand>img {
+        width: 260px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        margin: 16px 30px;
+        font-size: 14px;
+    }
+    .banner-principal-texto-left h3 {
+        width: 220px;
+        height: 33px;
+        font-size: 17px;
+    }
+    .banner-principal-texto-right {
+        width: 485px;
+        float: right;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .navbar-default {
+        padding: 30px 0 0 0;
+    }
+    .navbar-brand>img {
+        width: 240px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        margin: 15px;
+        font-size: 14px;
+    }
+    .banner-principal-texto-left h3 {
+        width: 214px;
+        height: 31px;
+        font-size: 15px;
+    }
+    .banner-principal-texto-right {
+        width: 359px;
+        float: right;
+        padding: 20px 52px;
+    }
+    .banner-principal-texto-right form label p {
+        padding: 0 0 0 35px;
+        line-height: 18px;
+        font-size: 16px;
+    }
+    .banner-principal-texto-right form label i.icon-metragem {
+        margin-top: 6px;
+    }
+    .banner-principal-texto-left p {
+        font-size: 17px;
+    }
+}
+
+@media(min-width: 0px) and (max-width: 767px) {
+    .navbar-default {
+        padding: 13px 0 0 0;
+    }
+    .navbar-header {
+        float: right;
+    }
+    .navbar-toggle {
+        z-index: 3;
+        margin-right: 25px;
+    }
+    .navbar-brand>img {
+        width: 195px;
+    }
+    .navbar-header {
+        float: right;
+    }
+    .navbar-nav {
+        float: left;
+        margin: 0;
+        width: 100%;
+        margin-top: 25px;
+    }
+    .navbar-collapse {
+        padding: 0;
+        float: initial;
+        position: fixed;
+        left: 0;
+        width: 100%;
+        right: 0;
+        margin: 0;
+        height: calc(100vh - 88px);
+        top: 88px;
+    }
+    .container>.navbar-collapse {
+        margin-right: 0px;
+        margin-left: 0px;
+        background: white;
+    }
+    .navbar-default .navbar-nav>li>a {
+        padding: 11px 5px;
+        margin: 0;
+        text-align: center;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: white;
+    }
+    .navbar-default .navbar-toggle {
+        border: 2px solid white;
+        border-radius: 100px;
+        height: 46px;
+        width: 46px;
+    }
+    .banner-principal-texto-left h3 {
+        width: 215px;
+        height: 31px;
+        font-size: 14px;
+        margin: 0 auto;
+    }
+    .banner-principal-texto-right {
+        width: 99%;
+        float: initial;
+        padding: 4px 40px;
+        margin: 0 auto;
+        height: 510px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: #7c7c7c;
+    }
+    .banner-principal-texto-right h2 {
+        font-size: 23px;
+        margin-bottom: 0;
+    }
+    .banner-principal-texto-left {
+        margin-top: 0;
+    }
+    .banner-principal-texto-left p {
+        text-align: center;
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    .banner-principal-texto-right form label input {
+        font-size: 16px;
+        line-height: 27px;
+    }
+    .banner-principal-texto-right form label p {
+        font-size: 15px;
+        margin-bottom: 33px;
+    }
+    .banner-principal-texto-right form label,
+    .banner-principal-texto-right form label input {
+        margin-bottom: 5px;
+    }
+    .banner-principal-texto-right::before {
+        height: 522px;
+    }
+    .bg-barra-info {
+        height: auto;
+    }
+}
+
+@media(min-width: 0px) and (max-width: 991px) {}
+
+@media(min-width: 541px) and (max-width: 767px) {}
+
+@media(min-width: 0px) and (max-width: 540px) {}
