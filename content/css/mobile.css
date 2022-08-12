@@ -2,7 +2,19 @@
 
 @media(min-width: 1200px) and (max-width: 1400px) {
     .bg-banner-principal {
-        height: 640px;
+        height: 625px;
+        padding-top: 100px;
+    }
+    .banner-principal-texto-left {
+        margin-top: 169px;
+    }
+    .banner-principal-texto-left h3 {
+        font-size: 40px;
+    }
+    .banner-principal-texto-left p {
+        font-size: 26px;
+        line-height: 34px;
+        margin-bottom: 135px;
     }
 }
 

@@ -240,7 +240,7 @@ nav.navbar.navbar-default.small .navbar-nav>li>a span {
     margin: 0px 8px;
 }
 
-.rede-social li i {
+.rede-social li a i {
     width: 47px;
     height: 47px;
     background-repeat: no-repeat;
@@ -248,17 +248,22 @@ nav.navbar.navbar-default.small .navbar-nav>li>a span {
     display: block;
     background-color: #BE2527;
     border-radius: 10px;
+    transition: 0.2s;
 }
 
-.rede-social li i.icon-instagram {
+.rede-social li a:hover i {
+    background-color: #CECECD;
+}
+
+.rede-social li a i.icon-instagram {
     background-image: url("../img/icon-instagram.png");
 }
 
-.rede-social li i.icon-facebook {
+.rede-social li a i.icon-facebook {
     background-image: url("../img/icon-facebook.png");
 }
 
-.rede-social li i.icon-whatsapp {
+.rede-social li a i.icon-whatsapp {
     background-image: url("../img/icon-whatsapp.png");
 }
 
