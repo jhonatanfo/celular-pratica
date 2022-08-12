@@ -30,15 +30,6 @@
         margin: 16px 30px;
         font-size: 14px;
     }
-    .banner-principal-texto-left h3 {
-        width: 220px;
-        height: 33px;
-        font-size: 17px;
-    }
-    .banner-principal-texto-right {
-        width: 485px;
-        float: right;
-    }
     .navbar-nav {
         padding: 0;
         height: 68px;
@@ -54,6 +45,37 @@
     nav.navbar.navbar-default.small .navbar-nav>li>a span {
         margin-top: 15px;
     }
+    /* ----'' */
+    .bg-banner-principal {
+        height: 625px;
+        padding-top: 100px;
+    }
+    .banner-principal-texto-left {
+        margin-top: 169px;
+    }
+    .banner-principal-texto-left h3 {
+        font-size: 40px;
+    }
+    .banner-principal-texto-left p {
+        font-size: 26px;
+        line-height: 34px;
+        margin-bottom: 135px;
+    }
+    /* ------- */
+    .box-dicas-info h4 {
+        font-size: 16px;
+    }
+    .bg-sobre img {
+        margin-top: 70px;
+    }
+    /* ----- */
+    .bg-banner-interna h3 {
+        font-size: 23px;
+        padding: 20px;
+    }
+    .bg-banner-interna {
+        height: 320px;
+    }
 }
 
 @media(min-width: 768px) and (max-width: 991px) {
@@ -67,27 +89,6 @@
     .navbar-default .navbar-nav>li>a {
         margin: 15px;
         font-size: 14px;
-    }
-    .banner-principal-texto-left h3 {
-        width: 214px;
-        height: 31px;
-        font-size: 15px;
-    }
-    .banner-principal-texto-right {
-        width: 359px;
-        float: right;
-        padding: 20px 52px;
-    }
-    .banner-principal-texto-right form label p {
-        padding: 0 0 0 35px;
-        line-height: 18px;
-        font-size: 16px;
-    }
-    .banner-principal-texto-right form label i.icon-metragem {
-        margin-top: 6px;
-    }
-    .banner-principal-texto-left p {
-        font-size: 17px;
     }
     .navbar-default .navbar-nav>li>a span {
         margin-top: 20px;
@@ -103,6 +104,67 @@
     }
     nav.navbar.navbar-default.small .navbar-nav>li>a span {
         margin-top: 16px;
+    }
+    /* ----'' */
+    .bg-banner-principal {
+        height: 625px;
+        padding-top: 100px;
+    }
+    .banner-principal-texto-left {
+        margin-top: 169px;
+    }
+    .banner-principal-texto-left h3 {
+        font-size: 40px;
+    }
+    .banner-principal-texto-left p {
+        font-size: 26px;
+        line-height: 34px;
+        margin-bottom: 135px;
+    }
+    /* ---- */
+    .bg-sobre h1 {
+        font-size: 30px;
+    }
+    .bg-sobre p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .bg-sobre img {
+        width: 90%;
+        margin-top: 84px;
+    }
+    .bg-sobre {
+        padding: 70px 0;
+    }
+    .banner-principal-texto-right h2 {
+        font-size: 28px;
+    }
+    .fale-conosco-texto h2 {
+        font-size: 24px;
+    }
+    .fale-conosco-texto p a {
+        font-size: 18px;
+    }
+    .banner-principal-texto-right {
+        padding: 20px 45px
+    }
+    .info-rodape li {
+        font-size: 15px;
+    }
+    .info-rodape li i {
+        margin-right: 4px;
+    }
+    /* ----- */
+    .bg-banner-interna h3 {
+        font-size: 23px;
+        padding: 20px;
+    }
+    .bg-banner-interna {
+        height: 320px;
+    }
+    /* ----- */
+    .texto-conteudo-interna p {
+        font-size: 17px;
     }
 }
 
@@ -162,51 +224,180 @@
         background: #e01f23;
         margin-top: 0;
     }
-    .banner-principal-texto-left h3 {
-        width: 215px;
-        height: 31px;
-        font-size: 14px;
-        margin: 0 auto;
-    }
-    .banner-principal-texto-right {
-        width: 99%;
-        float: initial;
-        padding: 4px 40px;
-        margin: 0 auto;
-        height: 510px;
-    }
     .navbar-default .navbar-nav>li>a {
         color: #7c7c7c;
     }
     .banner-principal-texto-right h2 {
         font-size: 23px;
         margin-bottom: 0;
+        text-align: center;
+    }
+    /* ----'' */
+    .bg-banner-principal {
+        height: 465px;
+        padding-top: 100px;
     }
     .banner-principal-texto-left {
-        margin-top: 0;
+        margin-top: 49px;
+    }
+    .banner-principal-texto-left h3 {
+        font-size: 25px;
+        text-align: center;
     }
     .banner-principal-texto-left p {
+        font-size: 20px;
+        line-height: 29px;
+        margin-bottom: 75px;
         text-align: center;
-        font-size: 17px;
-        margin-bottom: 10px;
     }
-    .banner-principal-texto-right form label input {
-        font-size: 16px;
-        line-height: 27px;
+    .rede-social {
+        left: 0;
+        margin: 0 auto;
     }
-    .banner-principal-texto-right form label p {
+    .bg-dicas h2 {
+        margin-bottom: 17px;
+        text-align: center;
+        font-size: 28px;
+    }
+    .box-dicas-info h3 {
+        margin: 0 auto;
+    }
+    .box-dicas-info h4,
+    .box-dicas-info span,
+    .bg-sobre h1,
+    .bg-sobre p {
+        text-align: center;
+    }
+    .bg-dicas button {
+        width: 210px;
+        height: 50px;
         font-size: 15px;
-        margin-bottom: 33px;
     }
-    .banner-principal-texto-right form label,
-    .banner-principal-texto-right form label input {
-        margin-bottom: 5px;
+    .bg-sobre a {
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        margin-bottom: 50px;
     }
-    .banner-principal-texto-right::before {
-        height: 522px;
+    .bg-sobre img {
+        width: 300px;
+        float: initial;
+        margin: 0 auto;
+        display: block;
     }
-    .bg-barra-info {
-        height: auto;
+    /* ---- */
+    .fale-conosco-texto h2 {
+        text-align: center;
+        display: block;
+        font-size: 24px;
+    }
+    .fale-conosco-texto p a {
+        text-align: center;
+        display: block;
+        font-size: 17px;
+    }
+    .fale-conosco-texto p {
+        font-size: 17px;
+        text-align: center;
+        display: block;
+    }
+    .fale-conosco-texto {
+        margin-top: 0;
+    }
+    .fale-conosco-texto ul {
+        margin: 0 auto;
+        display: block;
+    }
+    .banner-principal-texto-right {
+        margin-top: 63px;
+        padding: 10px 22px;
+    }
+    .logo-rodape img {
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 50px;
+    }
+    .menu-rodape ul li,
+    .info-rodape li a,
+    .info-rodape li {
+        text-align: center;
+    }
+    .info-rodape li i {
+        width: 100%;
+    }
+    .info-rodape li {
+        display: block;
+    }
+    footer .rede-social {
+        float: initial;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    /* ----- */
+    .bg-banner-interna h3 {
+        font-size: 18px;
+        padding: 0px;
+    }
+    .bg-banner-interna {
+        height: 260px;
+    }
+    /* ----- */
+    .texto-conteudo-interna p {
+        font-size: 15px;
+        text-align: justify;
+    }
+    .bg-conteudo-interna {
+        padding: 0 20px;
+    }
+    .texto-conteudo-interna img {
+        width: 200px;
+    }
+    /* --- */
+    .resultado-comentarios img {
+        float: initial;
+        margin: 0 auto;
+        display: block;
+    }
+    .resultado-comentarios h3 {
+        font-size: 16px;
+        padding-left: 0;
+        text-align: center;
+    }
+    .resultado-comentarios h4,
+    .resultado-comentarios p {
+        padding-left: 0;
+        text-align: center;
+    }
+    .resultado-comentarios {
+        padding: 30px 15px;
+    }
+    .resultado-comentarios button {
+        font-size: 14px;
+        padding-left: 0;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+        float: initial;
+    }
+    .bg-comentario h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .bg-comentario p {
+        font-size: 17px;
+        text-align: center;
+    }
+    .bg-comentario form button {
+        font-size: 17px;
+        width: 190px;
+        height: 48px;
+        border: none;
+        float: initial;
+        margin: 0 auto;
+        display: block;
+        font-size: 16px;
     }
 }
 

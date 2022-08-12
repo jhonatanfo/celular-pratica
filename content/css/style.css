@@ -284,25 +284,26 @@ nav.navbar.navbar-default.small .navbar-nav>li>a span {
 a.box-dicas {
     height: 250px;
     display: block;
-    width: 100%;
     position: relative;
     text-decoration: none;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+    padding: 0px 8px;
 }
 
 .bg-dicas a.box-dicas .box-dicas-fotos {
     height: 250px;
     overflow: hidden;
-    position: absolute;
+    position: relative;
     border-radius: 16px;
     background: rgba(23, 23, 23, 0.69);
     z-index: 1;
+    width: 100%;
 }
 
 .bg-dicas a.box-dicas .box-dicas-fotos img {
     width: 100%;
     object-fit: cover;
-    height: 280px;
+    height: 251px;
     transition: transform 0.2s;
 }
 
@@ -316,6 +317,9 @@ a.box-dicas {
     z-index: 2;
     position: relative;
     height: 250px;
+    display: grid;
+    align-items: center;
+    margin-top: -250px;
 }
 
 .bg-dicas h2 {
@@ -341,7 +345,6 @@ a.box-dicas {
     text-align: center;
     padding: 5px 0;
     margin-top: 0;
-    margin-bottom: 25px;
 }
 
 .box-dicas-info h4 {
@@ -357,10 +360,11 @@ a.box-dicas {
     font-style: normal;
     font-weight: 500;
     font-size: 9px;
-    line-height: 106%;
+    line-height: 13px;
     text-decoration-line: underline;
     color: #FFFFFF;
-    margin-bottom: 35px;
+    display: block;
+    margin-top: 5px;
 }
 
 .box-dicas-info span {
@@ -388,6 +392,11 @@ a.box-dicas {
     border: none;
     position: relative;
     margin-top: 30px;
+    transition: 0.2s;
+}
+
+.bg-dicas button:hover {
+    background: #CECECD;
 }
 
 
@@ -401,7 +410,7 @@ a.box-dicas {
 .bg-sobre h1 {
     font-style: normal;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 35px;
     line-height: 59px;
     text-transform: uppercase;
     color: #BE2527;
@@ -411,7 +420,7 @@ a.box-dicas {
 .bg-sobre p {
     font-style: normal;
     font-weight: 500;
-    font-size: 23px;
+    font-size: 20px;
     line-height: 26px;
     color: #171717;
     margin-bottom: 23px;
@@ -425,6 +434,11 @@ a.box-dicas {
     text-decoration-line: underline;
     text-transform: capitalize;
     color: #BE2527;
+    transition: 0.2s;
+}
+
+.bg-sobre a:hover {
+    color: #CECECD;
 }
 
 .bg-sobre img {
@@ -495,26 +509,37 @@ a.box-dicas {
     margin: 0 16px 0 0;
 }
 
-.fale-conosco-texto ul li a {}
-
 .fale-conosco-texto ul li a i {
     width: 30px;
     height: 30px;
     display: block;
     background-position: center;
     background-repeat: no-repeat;
+    transition: 0.2s;
 }
 
 .fale-conosco-texto ul li a i.icon-instagram-rodape {
     background-image: url("../img/icon-instagram.png");
 }
 
+.fale-conosco-texto ul li a:hover i.icon-instagram-rodape {
+    background-image: url("../img/icon-instagram-hover.png");
+}
+
 .fale-conosco-texto ul li a i.icon-facebook-rodape {
     background-image: url("../img/icon-facebook.png");
 }
 
+.fale-conosco-texto ul li a:hover i.icon-facebook-rodape {
+    background-image: url("../img/icon-facebook-hover.png");
+}
+
 .fale-conosco-texto ul li a i.icon-whatsapp-rodape {
     background-image: url("../img/icon-whatsapp.png");
+}
+
+.fale-conosco-texto ul li a:hover i.icon-whatsapp-rodape {
+    background-image: url("../img/icon-whatsapp-hover.png");
 }
 
 .altura-mensagem {
@@ -552,6 +577,11 @@ footer {
     line-height: 20px;
     color: #171717;
     text-decoration: none;
+    transition: 0.2s;
+}
+
+.menu-rodape ul li a:hover {
+    color: #BE2527;
 }
 
 .info-rodape {
@@ -573,6 +603,11 @@ footer {
 .info-rodape li a {
     text-decoration-line: underline;
     color: #171717;
+    transition: 0.2s;
+}
+
+.info-rodape li a:hover {
+    color: #BE2527;
 }
 
 .info-rodape li i {
@@ -683,6 +718,12 @@ footer .rede-social i.icon-facebook {
 
 .texto-conteudo-interna p {
     margin-bottom: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 184%;
+    /* or 37px */
+    color: #000000;
 }
 
 .texto-conteudo-interna img {
@@ -751,6 +792,11 @@ footer .rede-social i.icon-facebook {
     border-radius: 10px;
     float: right;
     border: none;
+    transition: 0.2s;
+}
+
+.bg-comentario form button:hover {
+    background: #717171;
 }
 
 
@@ -812,6 +858,11 @@ footer .rede-social i.icon-facebook {
     border: none;
     background: transparent;
     padding-left: 85px;
+    transition: 0.2s;
+}
+
+.resultado-comentarios button:hover {
+    color: #717171;
 }
 
 .texto-conteudo-interna p b span {
