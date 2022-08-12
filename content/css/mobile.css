@@ -1,13 +1,18 @@
 @media(min-width: 1200px) and (max-width: 1600px) {}
 
-@media(min-width: 1200px) and (max-width: 1400px) {}
+@media(min-width: 1200px) and (max-width: 1400px) {
+    .bg-banner-principal {
+        height: 640px;
+    }
+}
 
 @media(min-width: 992px) and (max-width: 1199px) {
     .navbar-default {
-        padding: 30px 0 0 0;
+        padding: 12px 0 0 0;
+        height: 80px;
     }
     .navbar-brand>img {
-        width: 260px;
+        width: 149px;
     }
     .navbar-default .navbar-nav>li>a {
         margin: 16px 30px;
@@ -22,14 +27,30 @@
         width: 485px;
         float: right;
     }
+    .navbar-nav {
+        padding: 0;
+        height: 68px;
+    }
+    .navbar-default .navbar-nav>li>a span {
+        margin-top: 23px;
+    }
+    nav.navbar.navbar-default.small .navbar-nav {
+        padding: 0 0 0 0;
+        float: right;
+        height: 60px;
+    }
+    nav.navbar.navbar-default.small .navbar-nav>li>a span {
+        margin-top: 15px;
+    }
 }
 
 @media(min-width: 768px) and (max-width: 991px) {
     .navbar-default {
-        padding: 30px 0 0 0;
+        padding: 11px 0 0 0;
+        height: 75px;
     }
     .navbar-brand>img {
-        width: 240px;
+        width: 144px;
     }
     .navbar-default .navbar-nav>li>a {
         margin: 15px;
@@ -56,11 +77,27 @@
     .banner-principal-texto-left p {
         font-size: 17px;
     }
+    .navbar-default .navbar-nav>li>a span {
+        margin-top: 20px;
+    }
+    /* -------- */
+    /* -------- */
+    .navbar-nav {
+        padding: 0 0 0 0;
+        height: 60px;
+    }
+    nav.navbar.navbar-default.small .navbar-nav {
+        padding: 0;
+    }
+    nav.navbar.navbar-default.small .navbar-nav>li>a span {
+        margin-top: 16px;
+    }
 }
 
 @media(min-width: 0px) and (max-width: 767px) {
     .navbar-default {
         padding: 13px 0 0 0;
+        height: 77px;
     }
     .navbar-header {
         float: right;
@@ -70,7 +107,7 @@
         margin-right: 25px;
     }
     .navbar-brand>img {
-        width: 195px;
+        width: 151px;
     }
     .navbar-header {
         float: right;
@@ -89,8 +126,8 @@
         width: 100%;
         right: 0;
         margin: 0;
-        height: calc(100vh - 88px);
-        top: 88px;
+        height: calc(100vh - 75px);
+        top: 75px;
     }
     .container>.navbar-collapse {
         margin-right: 0px;
@@ -110,6 +147,8 @@
         border-radius: 100px;
         height: 46px;
         width: 46px;
+        background: #e01f23;
+        margin-top: 0;
     }
     .banner-principal-texto-left h3 {
         width: 215px;

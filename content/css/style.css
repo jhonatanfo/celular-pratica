@@ -639,3 +639,197 @@ footer .rede-social i.icon-facebook {
     text-align: center;
     padding: 110px 0px;
 }
+
+
+/**/
+
+.bg-conteudo-interna {
+    background: #F5F5F5;
+}
+
+.top-data {
+    border-bottom: 1px solid #CFCFCF;
+    padding: 40px 0;
+    margin-bottom: 50px;
+}
+
+.top-data p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 106%;
+    color: #353535;
+    margin-bottom: 0;
+}
+
+.top-data p b {
+    font-weight: 700;
+}
+
+.texto-conteudo-interna {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 184%;
+    color: #000000;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.texto-conteudo-interna p {
+    margin-bottom: 40px;
+}
+
+.texto-conteudo-interna img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+
+/***/
+
+.bg-comentario {
+    background: #F5F5F5;
+    padding: 50px 0;
+}
+
+.bg-comentario h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.bg-comentario p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 149.5%;
+    color: #BABABA;
+    margin-bottom: 37px;
+}
+
+.bg-comentario form label {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.bg-comentario form label textarea {
+    width: 100%;
+    height: 194px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 149.5%;
+    color: #717171;
+    border: 1px solid #E9E9E9;
+    padding: 24px 41px;
+}
+
+.bg-comentario form label textarea,
+.bg-comentario form label textarea:hover {
+    outline: none !important;
+}
+
+.bg-comentario form button {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    width: 200px;
+    height: 53px;
+    background: #BE2527;
+    border-radius: 10px;
+    float: right;
+    border: none;
+}
+
+
+/* // */
+
+.resultado-comentarios {
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+.resultado-comentarios.border {
+    border-bottom: 1px solid #CFCFCF;
+}
+
+.resultado-comentarios img {
+    float: left;
+    margin-top: -5px;
+}
+
+.resultado-comentarios h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 34px;
+    color: #000000;
+    padding-left: 85px;
+    margin: 0;
+}
+
+.resultado-comentarios h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #CDCDCD;
+    padding-left: 85px;
+    margin: 0;
+    margin-bottom: 21px;
+}
+
+.resultado-comentarios p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 181.5%;
+    color: #828282;
+    padding-left: 85px;
+}
+
+.resultado-comentarios button {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    color: #BE2527;
+    float: left;
+    border: none;
+    background: transparent;
+    padding-left: 85px;
+}
+
+.texto-conteudo-interna p b span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    text-transform: uppercase;
+    color: #BE2527;
+    float: left;
+    margin: -20px 20px 0px 0px;
+    height: 150px;
+}
+
+.texto-conteudo-interna hr {
+    border: 1px solid #CFCFCF;
+    margin-bottom: 50px;
+}
+
+.bg-comentario.comentario-v2 h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 50px;
+    color: #BE2527;
+}
